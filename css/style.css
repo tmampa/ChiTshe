@@ -1,0 +1,21 @@
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+#navbar a {display: block;}
+#container {float: left;}
+  
+@media screen and (max-width: 700px) {
+    #navbar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    #navbar a {float: left; display: block;}
+    div.content {margin-left: 0;}
+  }
